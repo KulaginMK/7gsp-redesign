@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru" data-font="md" data-theme="default" data-images="on" data-spacing="normal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Шаблон внутренней страницы — УЗ «7-я городская стоматологическая поликлиника»</title>
+  <meta name="description" content="Типовой шаблон внутренней страницы для расширения обновлённого сайта 7gsp.by.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Перейти сразу к основному содержанию</a>
+
+  <!-- Панель «Версия для слабовидящих» -->
+  <div class="a11y-panel" id="a11yPanel" role="region" aria-label="Настройки версии для слабовидящих">
+    <div class="container a11y-inner">
+      <div class="a11y-group">
+        <span class="a11y-label">Размер шрифта:</span>
+        <button type="button" class="a11y-btn" data-a11y-font="md" aria-pressed="true">А (обычный)</button>
+        <button type="button" class="a11y-btn" data-a11y-font="lg" aria-pressed="false">А+ (крупный)</button>
+        <button type="button" class="a11y-btn" data-a11y-font="xl" aria-pressed="false">А++ (очень крупный)</button>
+      </div>
+      <div class="a11y-group">
+        <span class="a11y-label">Цвет фона:</span>
+        <button type="button" class="a11y-btn" data-a11y-theme="default" aria-pressed="true">Обычный</button>
+        <button type="button" class="a11y-btn a11y-btn--bw" data-a11y-theme="bw" aria-pressed="false">Чёрным по белому</button>
+        <button type="button" class="a11y-btn a11y-btn--wb" data-a11y-theme="wb" aria-pressed="false">Белым по чёрному</button>
+        <button type="button" class="a11y-btn a11y-btn--blue" data-a11y-theme="blue" aria-pressed="false">Синим по голубому</button>
+      </div>
+      <div class="a11y-group">
+        <span class="a11y-label">Фото:</span>
+        <button type="button" class="a11y-btn" data-a11y-images="on" aria-pressed="true">Показать</button>
+        <button type="button" class="a11y-btn" data-a11y-images="off" aria-pressed="false">Скрыть</button>
+      </div>
+      <div class="a11y-group">
+        <span class="a11y-label">Интервал:</span>
+        <button type="button" class="a11y-btn" data-a11y-spacing="normal" aria-pressed="true">Обычный</button>
+        <button type="button" class="a11y-btn" data-a11y-spacing="wide" aria-pressed="false">Широкий</button>
+      </div>
+      <button type="button" class="a11y-btn a11y-btn--reset" id="a11yReset">Вернуть обычный вид</button>
+    </div>
+  </div>
+
+  <!-- Верхняя служебная полоса -->
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <div class="top-bar__hours">
+        <span aria-hidden="true">🕒</span>
+        <span data-i18n="top_hours">Пн–Пт: регистратура 7:30–21:00, врачи 8:00–21:00 · Сб: 9:00–15:00 · Вс: выходной</span>
+      </div>
+      <div class="top-bar__actions">
+        <button type="button" class="btn-a11y-toggle" id="a11yToggle" aria-expanded="false" aria-controls="a11yPanel">
+          <span aria-hidden="true">👁</span>
+          <span data-i18n="a11y_btn">Версия для слабовидящих</span>
+        </button>
+        <div class="lang-switch" role="group" aria-label="Выбор языка интерфейса">
+          <button type="button" class="lang-btn" data-lang="ru" aria-pressed="true">РУС</button>
+          <button type="button" class="lang-btn" data-lang="be" aria-pressed="false">БЕЛ</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">ENG</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Основная шапка сайта -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/img/logo.png" alt="Эмблема 7-й городской стоматологической поликлиники" width="74" height="74">
+        <span>
+          <span class="brand__eyebrow" data-i18n="eyebrow">Учреждение здравоохранения · г. Минск</span>
+          <span class="brand__title" data-i18n="brand_title">7-я городская стоматологическая поликлиника</span>
+          <span class="brand__addresses">ул. Притыцкого, 46 · Филиал №1: ул. Нёманская, 46</span>
+        </span>
+      </a>
+      <div class="header-cta">
+        <a class="btn btn--primary" href="https://7gsp.medtalon.by" target="_blank" rel="noopener">
+          <span aria-hidden="true">📅</span>
+          <span data-i18n="cta_talon">Заказать талон онлайн</span>
+        </a>
+        <a class="btn btn--outline" href="contacts.html">
+          <span aria-hidden="true">☎</span>
+          <span data-i18n="cta_phones">Телефоны</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Главное меню -->
+  <nav class="site-nav" aria-label="Основное меню">
+    <div class="container site-nav__inner">
+      <button type="button" class="nav-mobile-toggle" id="navMobileToggle" aria-expanded="false" aria-controls="navList">
+        <span>☰ Меню разделов сайта</span>
+        <span aria-hidden="true">▾</span>
+      </button>
+      <ul class="nav-list" id="navList">
+        <li><a class="nav-link" href="index.html" data-i18n="nav_home">Главная</a></li><li><a class="nav-link" href="talon.html" data-i18n="nav_talon">Как получить талон</a></li><li><a class="nav-link" href="schedule.html" data-i18n="nav_schedule">Расписание</a></li><li><a class="nav-link" href="services.html" data-i18n="nav_services">Услуги</a></li><li><a class="nav-link" href="paid.html" data-i18n="nav_paid">Платные услуги</a></li><li><a class="nav-link" href="filial-1.html" data-i18n="nav_filial">Филиал №1</a></li><li><a class="nav-link" href="district.html" data-i18n="nav_district">Район обслуживания</a></li><li><a class="nav-link" href="contacts.html" data-i18n="nav_contacts">Контакты</a></li>
+        <li class="nav-more-wrap">
+          <button type="button" class="nav-more-btn" id="navMoreBtn" aria-expanded="false" aria-controls="navMoreMenu" data-i18n="nav_more">Ещё разделы ▾</button>
+          <ul class="nav-dropdown" id="navMoreMenu">
+            <li><a href="about.html">О поликлинике (администрация, режим, история, вакансии)</a></li><li><a href="patients.html">Пациентам (закрепление, правила, льготы, помощь инвалидам)</a></li><li><a href="appeals.html">Обращения граждан и административные процедуры</a></li><li><a href="news.html">Новости и полезная информация</a></li><li><a href="sitemap.html">Карта сайта и поиск по разделам</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <section class="page-banner">
+    <div class="container">
+      <nav aria-label="Путь по сайту">
+        <ol class="breadcrumbs"><li><a href="index.html">Главная</a></li><li aria-current="page">Типовой шаблон внутренней страницы</li></ol>
+      </nav>
+      <div class="page-banner__row">
+        <div>
+          <h1>Типовой шаблон внутренней страницы</h1>
+          <p>Готовая заготовка для добавления новых разделов, новостей и документов вебмастером.</p>
+        </div>
+        <button type="button" class="btn-print" data-print>🖨 Распечатать страницу</button>
+      </div>
+    </div>
+  </section>
+
+  <main id="main-content">
+    
+  <div class="page-main">
+    <div class="container">
+      <!--
+        ШАБЛОН ВНУТРЕННЕЙ СТРАНИЦЫ 7gsp.by
+        Скопируйте этот файл (page-template.html), переименуйте под нужный раздел
+        и замените заголовок в <section class="page-banner"> и текст внутри <article class="content-card prose">.
+        Все стили, адаптивность, версия для слабовидящих и меню подключаются автоматически.
+      -->
+      <article class="content-card prose">
+        <h2>Заголовок раздела (пример типовой страницы)</h2>
+        <p>Это чистый шаблон для добавления любых новых информационных страниц поликлиники: приказов, новостей, памятки для пациентов или объявления.</p>
+
+        <div class="callout">
+          <h3>Пример важной информационной выноски</h3>
+          <p>Используйте блок с классом <code>callout</code> (или <code>callout callout--warn</code> для предупреждений), чтобы выделить главное для пожилых посетителей.</p>
+        </div>
+
+        <h3>Пример оформленного списка</h3>
+        <ul>
+          <li>Крупный читабельный текст (базовый размер 18 px, межстрочный интервал 1.65).</li>
+          <li>Высокий контраст текста и кнопок, полная поддержка «Версии для слабовидящих».</li>
+          <li>Кликабельные телефоны: <a class="phone-link" style="font-size:1rem" href="tel:+375172439286">+375 17 243-92-86</a>.</li>
+        </ul>
+
+        <h3>Пример адаптивной таблицы</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Показатель / Услуга</th>
+                <th>График / Условия</th>
+                <th>Контактный телефон</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Приём граждан</td>
+                <td>Понедельник – Пятница, 08:00 – 21:00</td>
+                <td><a href="tel:+375172439286">+375 17 243-92-86</a></td>
+              </tr>
+              <tr>
+                <td>Филиал №1 (ул. Нёманская, 46)</td>
+                <td>Платный приём взрослого населения</td>
+                <td><a href="tel:+375173688206">+375 17 368-82-06</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <details class="accordion">
+          <summary>Пример раскрывающегося блока (аккордеона)</summary>
+          <div class="accordion__body">
+            <p>Подходит для длинных документов, графиков и часто задаваемых вопросов — не требует сложного JavaScript, работает нативно во всех браузерах.</p>
+          </div>
+        </details>
+      </article>
+    </div>
+  </div>
+
+  </main>
+
+  <!-- Подвал -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-title">УЗ «7-я городская стоматологическая поликлиника»</h2>
+          <p style="margin:0 0 10px"><strong>Основное здание:</strong> 220082, г. Минск, ул. Притыцкого, 46</p>
+          <p style="margin:0 0 10px"><strong>Филиал №1 (платный приём):</strong> г. Минск, ул. Нёманская, 46</p>
+          <p style="margin:0 0 10px">E-mail: <a href="mailto:help@7gsp.by">help@7gsp.by</a></p>
+          <p style="margin:0;font-size:0.86rem;opacity:0.9">Регистрационное свидетельство ИР № 101375962.<br>За информацию о режиме работы и номерах телефонов, размещённую на сторонних сайтах, администрация учреждения ответственности не несёт.</p>
+        </div>
+
+        <div>
+          <h2 class="footer-title">Телефоны регистратур</h2>
+          <ul class="footer-links">
+            <li>Приёмная главного врача: <a href="tel:+375172242284">+375 17 224-22-84</a></li>
+            <li>Терапевтическое отд.: <a href="tel:+375172439286">+375 17 243-92-86</a>, <a href="tel:+375295849956">+375 29 584-99-56</a></li>
+            <li>Ортопедическое отд.: <a href="tel:+375173538351">+375 17 353-83-51</a>, <a href="tel:+375333334464">+375 33 333-44-64</a></li>
+            <li>Детское отд.: <a href="tel:+375173529284">+375 17 352-92-84</a>, <a href="tel:+375295849956">+375 29 584-99-56</a></li>
+            <li><strong>Филиал №1 (Нёманская, 46):</strong> <a href="tel:+375173688206">+375 17 368-82-06</a>, <a href="tel:+375298567914">+375 29 856-79-14</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="footer-title">Все разделы сайта</h2>
+          <ul class="footer-links">
+            <li><a href="talon.html">Как получить талон</a> · <a href="schedule.html">Расписание</a></li>
+            <li><a href="services.html">Услуги</a> · <a href="paid.html">Платные услуги и прейскурант</a></li>
+            <li><a href="filial-1.html">Внебюджетное отделение филиал №1</a></li>
+            <li><a href="district.html">Район обслуживания (поиск улицы)</a></li>
+            <li><a href="about.html">О поликлинике</a> · <a href="patients.html">Пациентам и льготы</a></li>
+            <li><a href="appeals.html">Обращения граждан и админпроцедуры</a></li>
+            <li><a href="news.html">Новости</a> · <a href="sitemap.html">Карта сайта и поиск</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © Учреждение здравоохранения «7-я городская стоматологическая поликлиника» ·
+          <a href="https://7gsp.by/информация/политика-обработки-персональных-данных" target="_blank" rel="noopener">Политика персональных данных</a> ·
+          <a href="https://7gsp.by/информация/политика-в-отношении-обработки-cookie" target="_blank" rel="noopener">Политика cookie</a>
+        </div>
+        <a class="btn-top" href="#top">↑ Наверх страницы</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

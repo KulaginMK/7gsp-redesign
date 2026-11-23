@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="ru" data-font="md" data-theme="default" data-images="on" data-spacing="normal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обращения граждан и административные процедуры — УЗ «7-я городская стоматологическая поликлиника»</title>
+  <meta name="description" content="График личного приёма граждан, прямые телефонные линии, горячая линия, электронные обращения и административные процедуры 7-й ГСП.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Перейти сразу к основному содержанию</a>
+
+  <!-- Панель «Версия для слабовидящих» -->
+  <div class="a11y-panel" id="a11yPanel" role="region" aria-label="Настройки версии для слабовидящих">
+    <div class="container a11y-inner">
+      <div class="a11y-group">
+        <span class="a11y-label">Размер шрифта:</span>
+        <button type="button" class="a11y-btn" data-a11y-font="md" aria-pressed="true">А (обычный)</button>
+        <button type="button" class="a11y-btn" data-a11y-font="lg" aria-pressed="false">А+ (крупный)</button>
+        <button type="button" class="a11y-btn" data-a11y-font="xl" aria-pressed="false">А++ (очень крупный)</button>
+      </div>
+      <div class="a11y-group">
+        <span class="a11y-label">Цвет фона:</span>
+        <button type="button" class="a11y-btn" data-a11y-theme="default" aria-pressed="true">Обычный</button>
+        <button type="button" class="a11y-btn a11y-btn--bw" data-a11y-theme="bw" aria-pressed="false">Чёрным по белому</button>
+        <button type="button" class="a11y-btn a11y-btn--wb" data-a11y-theme="wb" aria-pressed="false">Белым по чёрному</button>
+        <button type="button" class="a11y-btn a11y-btn--blue" data-a11y-theme="blue" aria-pressed="false">Синим по голубому</button>
+      </div>
+      <div class="a11y-group">
+        <span class="a11y-label">Фото:</span>
+        <button type="button" class="a11y-btn" data-a11y-images="on" aria-pressed="true">Показать</button>
+        <button type="button" class="a11y-btn" data-a11y-images="off" aria-pressed="false">Скрыть</button>
+      </div>
+      <div class="a11y-group">
+        <span class="a11y-label">Интервал:</span>
+        <button type="button" class="a11y-btn" data-a11y-spacing="normal" aria-pressed="true">Обычный</button>
+        <button type="button" class="a11y-btn" data-a11y-spacing="wide" aria-pressed="false">Широкий</button>
+      </div>
+      <button type="button" class="a11y-btn a11y-btn--reset" id="a11yReset">Вернуть обычный вид</button>
+    </div>
+  </div>
+
+  <!-- Верхняя служебная полоса -->
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <div class="top-bar__hours">
+        <span aria-hidden="true">🕒</span>
+        <span data-i18n="top_hours">Пн–Пт: регистратура 7:30–21:00, врачи 8:00–21:00 · Сб: 9:00–15:00 · Вс: выходной</span>
+      </div>
+      <div class="top-bar__actions">
+        <button type="button" class="btn-a11y-toggle" id="a11yToggle" aria-expanded="false" aria-controls="a11yPanel">
+          <span aria-hidden="true">👁</span>
+          <span data-i18n="a11y_btn">Версия для слабовидящих</span>
+        </button>
+        <div class="lang-switch" role="group" aria-label="Выбор языка интерфейса">
+          <button type="button" class="lang-btn" data-lang="ru" aria-pressed="true">РУС</button>
+          <button type="button" class="lang-btn" data-lang="be" aria-pressed="false">БЕЛ</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">ENG</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Основная шапка сайта -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/img/logo.png" alt="Эмблема 7-й городской стоматологической поликлиники" width="74" height="74">
+        <span>
+          <span class="brand__eyebrow" data-i18n="eyebrow">Учреждение здравоохранения · г. Минск</span>
+          <span class="brand__title" data-i18n="brand_title">7-я городская стоматологическая поликлиника</span>
+          <span class="brand__addresses">ул. Притыцкого, 46 · Филиал №1: ул. Нёманская, 46</span>
+        </span>
+      </a>
+      <div class="header-cta">
+        <a class="btn btn--primary" href="https://7gsp.medtalon.by" target="_blank" rel="noopener">
+          <span aria-hidden="true">📅</span>
+          <span data-i18n="cta_talon">Заказать талон онлайн</span>
+        </a>
+        <a class="btn btn--outline" href="contacts.html">
+          <span aria-hidden="true">☎</span>
+          <span data-i18n="cta_phones">Телефоны</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Главное меню -->
+  <nav class="site-nav" aria-label="Основное меню">
+    <div class="container site-nav__inner">
+      <button type="button" class="nav-mobile-toggle" id="navMobileToggle" aria-expanded="false" aria-controls="navList">
+        <span>☰ Меню разделов сайта</span>
+        <span aria-hidden="true">▾</span>
+      </button>
+      <ul class="nav-list" id="navList">
+        <li><a class="nav-link" href="index.html" data-i18n="nav_home">Главная</a></li><li><a class="nav-link" href="talon.html" data-i18n="nav_talon">Как получить талон</a></li><li><a class="nav-link" href="schedule.html" data-i18n="nav_schedule">Расписание</a></li><li><a class="nav-link" href="services.html" data-i18n="nav_services">Услуги</a></li><li><a class="nav-link" href="paid.html" data-i18n="nav_paid">Платные услуги</a></li><li><a class="nav-link" href="filial-1.html" data-i18n="nav_filial">Филиал №1</a></li><li><a class="nav-link" href="district.html" data-i18n="nav_district">Район обслуживания</a></li><li><a class="nav-link" href="contacts.html" data-i18n="nav_contacts">Контакты</a></li>
+        <li class="nav-more-wrap">
+          <button type="button" class="nav-more-btn" id="navMoreBtn" aria-expanded="false" aria-controls="navMoreMenu" data-i18n="nav_more">Ещё разделы ▾</button>
+          <ul class="nav-dropdown" id="navMoreMenu">
+            <li><a href="about.html">О поликлинике (администрация, режим, история, вакансии)</a></li><li><a href="patients.html">Пациентам (закрепление, правила, льготы, помощь инвалидам)</a></li><li><a href="appeals.html" aria-current="page">Обращения граждан и административные процедуры</a></li><li><a href="news.html">Новости и полезная информация</a></li><li><a href="sitemap.html">Карта сайта и поиск по разделам</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <section class="page-banner">
+    <div class="container">
+      <nav aria-label="Путь по сайту">
+        <ol class="breadcrumbs"><li><a href="index.html">Главная</a></li><li aria-current="page">Обращения граждан и административные процедуры</li></ol>
+      </nav>
+      <div class="page-banner__row">
+        <div>
+          <h1>Обращения граждан и административные процедуры</h1>
+          <p>Как записаться на личный приём, позвонить на прямую или горячую линию, направить электронное обращение.</p>
+        </div>
+        <button type="button" class="btn-print" data-print>🖨 Распечатать страницу</button>
+      </div>
+    </div>
+  </section>
+
+  <main id="main-content">
+    
+  <div class="page-main">
+    <div class="container" data-tabs>
+      <div class="tabs-bar" role="tablist" aria-label="Разделы обращений граждан">
+        <button type="button" class="tab-btn" role="tab" aria-selected="true" data-tab-target="reception">График личного приёма</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab-target="direct">Прямые телефонные линии</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab-target="hotline">Горячая линия и телефон доверия</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab-target="electronic">Электронные обращения</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab-target="higher">Вышестоящая организация</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab-target="admin-proc">Административные процедуры</button>
+      </div>
+
+      <div class="tab-panel is-active" id="reception" role="tabpanel">
+        <article class="content-card prose">
+          <h2>График личного приёма граждан руководством</h2>
+          <div>
+  <div><div class="table-wrap"><table>
+<tbody>
+<tr>
+<td>
+<div>УТВЕРЖДЕНО</div>
+<div>Приложение 1</div>
+<div>к приказу УЗ &laquo;7-я городская стоматологическая поликлиника&raquo;</div>
+<div>05.01.2026&nbsp; № 1-П</div>
+</td>
+</tr>
+</tbody>
+</table></div>
+
+
+
+
+
+
+<p>ГРАФИК</p>
+<p>личного приема граждан, их представителей, </p>
+<p>представителей&nbsp;&nbsp; юридических лиц</p>
+<p>должностными лицами поликлиники</p>
+
+<div class="table-wrap"><table>
+<tbody>
+<tr>
+<td>
+<div>Должность</div>
+</td>
+<td>
+<div>Ф.И.О.</div>
+</td>
+<td>
+<div>Адрес, № каб.</div>
+</td>
+<td>
+<div>Дни приема</div>
+</td>
+<td>
+<div>Время</div>
+<div>приема</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>Главный врач</div>
+</td>
+<td>
+<div>Кулагина Наталья Игоревна</div>
+</td>
+<td>
+<div>г.Минск,</div>
+<div>ул.&nbsp;Притыцкого, 46,</div>
+<div>каб. 50</div>
+</td>
+<td>
+<div>четверг</div>
+
+<div>3-я суббота месяца</div>
+</td>
+<td>
+<div>8.00-13.00</div>
+
+<div>9.00-12.00</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>Заместитель главного врача</div>
+<div>по медицинской части</div>
+</td>
+<td>
+<div>Каскевич Ядвига</div>
+<div>Францевна</div>
+</td>
+<td>
+<div>г.Минск,</div>
+<div>ул. Притыцкого, 46,</div>
+<div>каб. 49</div>
+</td>
+<td>
+<div>1-я, 3-я, 5-я среда месяца</div>
+
+<div>2-я, 4-я среда месяца</div>
+</td>
+<td>
+<div>8.00-13.00</div>
+
+<div>15.00-20.00</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>Врач-стоматолог-терапевт (заведующий) первым стоматологическим терапевтическим отделением</div>
+</td>
+<td>
+<div>Новикова Вера</div>
+<div>Александровна</div>
+</td>
+<td>
+<div>г.Минск,</div>
+<div>ул. Притыцкого, 46,</div>
+<div>каб. 19</div>
+</td>
+<td>
+<div>понедельник (нечетн.)</div>
+
+<div>2-я суббота месяца</div>
+
+<div>пятница (четн.)</div>
+</td>
+<td>
+<div>8.00-11.00</div>
+
+<div>10.00-13.00</div>
+
+<div>17.00-20.00</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>Врач-стоматолог-терапевт (заведующий) вторым стоматологическим</div>
+<div>терапевтическим отделением</div>
+</td>
+<td>
+<div>Рутковская Ирина</div>
+<div>Леонидовна</div>
+</td>
+<td>
+<div>г.Минск,</div>
+<div>ул. Притыцкого, 46,</div>
+<div>каб. 19</div>
+</td>
+<td>
+<div>понедельник (четн.)</div>
+
+<div>4-я суббота месяца</div>
+
+<div>пятница (нечетн.)</div>
+</td>
+<td>
+<div>8.00-11.00</div>
+
+<div>10.00-13.00</div>
+
+<div>17.00-20.00</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>Врач-стоматолог-терапевт (заведующий)&nbsp; стоматологическим детским отделением</div>
+</td>
+<td>
+<div>Жукова Анна</div>
+<div>Юрьевна</div>
+</td>
+<td>
+<div>г.Минск,</div>
+<div>ул. Притыцкого, 46,</div>
+<div>каб. 43</div>
+</td>
+<td>
+<div>понедельник</div>
+
+<div>1-я суббота</div>
+</td>
+<td>
+<div>17.00-20.00</div>
+
+<div>10.00-13.00</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>Врач-стоматолог-ортопед (заведующий) первым</div>
+<div>стоматологическим ортопедическим отделением</div>
+</td>
+<td>
+<div>Булкин Антон</div>
+<div>Михайлович</div>
+</td>
+<td>
+<div>г.Минск,</div>
+<div>ул. Притыцкого, 46,</div>
+<div>каб. 19</div>
+</td>
+<td>
+<div>вторник&nbsp;(четн.)</div>
+
+<div>четверг&nbsp;(четн.)</div>
+
+<div>5-я суббота</div>
+</td>
+<td>
+<div>16.00-18.00</div>
+
+<div>10.00-13.00</div>
+
+<div>16.00-18.00</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>Врач-стоматолог-ортопед (заведующий) вторым</div>
+<div>стоматологическим</div>
+<div>ортопедическим отделением</div>
+</td>
+<td>
+<div>Гринкевич Галина</div>
+<div>Михайловна</div>
+</td>
+<td>
+<div>г.Минск,</div>
+<div>ул. Притыцкого, 46,</div>
+<div>каб. 19</div>
+</td>
+<td>
+<div>вторник&nbsp;(нечетн.)</div>
+
+<div>четверг&nbsp;(нечетн.)</div>
+
+<div>3-я суббота</div>
+</td>
+<td>
+<div>16.00-18.00</div>
+
+<div>10.00-13.00</div>
+
+<div>16.00-18.00</div>
+</td>
+</tr>
+<tr>
+<td colspan="5">
+<div>Стоматологическое внебюджетное отделение Филиал № 1</div>
+</td>
+</tr>
+<tr>
+<td>
+<div>Врач-стоматолог-ортопед (заведующий) стоматологическим</div>
+<div>внебюджетным&nbsp; отделением филиала № 1</div>
+</td>
+<td>
+<div>Барадин Михаил</div>
+<div>Анатольевич</div>
+</td>
+<td>
+<div>г.Минск,</div>
+<div>ул. Нёманская, 46,</div>
+<div>каб.5</div>
+</td>
+<td>
+<div>вторник</div>
+
+<div>четверг</div>
+
+<div>3-я суббота</div>
+</td>
+<td>
+<div>16.00-18.00</div>
+
+<div>10.00-13.00</div>
+
+<div>16.00-18.00</div>
+</td>
+</tr>
+</tbody>
+</table></div></div>
+</div>																														</div>
+        </article>
+      </div>
+
+      <div class="tab-panel" id="direct" role="tabpanel">
+        <article class="content-card prose">
+          <h2>График проведения прямых телефонных линий</h2>
+          <div>
+  <div><p>&nbsp;&laquo;Прямые телефонные линии&raquo; проводятся главным врачом и заместителем главного врача в целях разъяснения гражданам и юридическим лицам вопросов в пределах своей компетенции либо по заранее планируемой теме, обусловленной её актуальностью.</p>
+<hr />
+<p><a href="https://fr.gov.by/main/grafiki-provedeniya-pryamykh-telefonnykh-liniy/" target="_blank" rel="noopener"><strong>Графики проведения &laquo;прямых телефонных линий&raquo; администрацией Фрунзенского района г.Минска</strong></a></p>
+<hr />
+<p><a href="https://minzdrav.gov.by/ru/sobytiya/pramoy-telefonnay-linii/" target="_blank" rel="noopener"><strong>МИНИСТЕРСТВО ЗДРАВООХРАНЕНИЯ РЕСПУБЛИКИ БЕЛАРУСЬ</strong></a></p>
+<hr />
+<p><a href="https://komzdrav-minsk.gov.by/ru/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82/%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%B8%D0%B5%D0%BC" target="_blank" rel="noopener"><strong><strong>Комитет по здравоохранению Мингорисполкома</strong></strong></a></p>
+<hr />
+
+<div class="table-wrap"><table>
+<tbody>
+<tr>
+<td>
+<div>УТВЕРЖДЕНО</div>
+<div>Приложение 2</div>
+<div>к приказу УЗ &laquo;7-я городская стоматологическая поликлиника&raquo;</div>
+<div>05.01.2026&nbsp; № 1-П</div>
+</td>
+</tr>
+</tbody>
+</table></div>
+
+
+
+
+
+
+<p><strong>График проведения "прямых телефонных линий" УЗ "7-я городская стоматологическая поликлиника" на 2026 год</strong>&nbsp;</p>
+<div class="table-wrap"><table>
+<tbody>
+<tr>
+<td>&nbsp;Должность, фамилия, имя, отчество</td>
+<td>ФИО</td>
+<td>&nbsp; Дата проведения</td>
+<td>&nbsp;Время проведения</td>
+<td>&nbsp;Номер телефона</td>
+</tr>
+<tr>
+<td rowspan="4">
+<p>Главный врач</p>
+</td>
+<td rowspan="4">Кулагина Наталья Игоревна</td>
+<td rowspan="4">21.10.2026</td>
+<td rowspan="4">15.00-17.00</td>
+<td rowspan="4">
+<p>(017) 356-32-26<br /></p>
+<p>((017) 351-87-29)</p>
+</td>
+</tr>
+</tbody>
+</table></div>
+
+<div class="table-wrap"><table>
+<tbody>
+<tr>
+<td>&nbsp;Должность, фамилия, имя, отчество</td>
+<td>ФИО</td>
+<td>&nbsp; Дата проведения</td>
+<td>&nbsp;Время проведения</td>
+<td>&nbsp;Номер телефона</td>
+</tr>
+<tr>
+<td rowspan="4">Заместитель главного врача по медицинской части<br />&nbsp; &nbsp;</td>
+<td rowspan="4">Каскевич Ядвига Францевна</td>
+<td rowspan="4">24.11.2026</td>
+<td rowspan="4">10.00-13.00</td>
+<td rowspan="4">(017) 351-87-29<br /></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>																														</div>
+        </article>
+      </div>
+
+      <div class="tab-panel" id="hotline" role="tabpanel">
+        <div class="dept-grid" style="margin-bottom:20px">
+          <div class="dept-card">
+            <h3 class="dept-card__title">Горячая линия поликлиники</h3>
+            <p class="dept-card__addr">Пн–Пт с 09:00 до 18:00</p>
+            <a class="phone-link" href="tel:+375173557619">☎ +375 17 355-76-19</a>
+          </div>
+          <div class="dept-card">
+            <h3 class="dept-card__title">Телефон доверия (противодействие коррупции)</h3>
+            <p class="dept-card__addr">Круглосуточно, в режиме автоответчика</p>
+            <a class="phone-link" href="tel:+375173859820">☎ +375 17 385-98-20</a>
+          </div>
+        </div>
+        <article class="content-card prose">
+          <h2>Горячие линии и телефоны доверия</h2>
+          <div>
+  <div><p>&laquo;Горячая линия&raquo; проводится в целях сообщения гражданами и юридическими лицами информации по вопросам, требующим принятия&nbsp;УЗ "7-я городская стоматологическая поликлиника"&nbsp;конкретных мер реагирования в пределах компетенции.</p>
+<h4>Телефон доверия создан в целях:</h4>
+<ul>
+<li>вовлечения гражданского общества в реализацию антикоррупционной политики государства;</li>
+<li>содействия принятию и укреплению мер, направленных на более эффективное и действенное предупреждение коррупционных проявлений и борьбу с коррупцией;</li>
+<li>формирования нетерпимости по отношению к коррупционным проявлениям;</li>
+<li>создания условий для выявления фактов коррупционных проявлений.&nbsp;</li>
+</ul>
+<h4>Основными задачами работы Телефона доверия являются:</h4>
+<ul>
+<li>обеспечение оперативного приема, учета и рассмотрения сообщений граждан (организаций), поступивших по &laquo;Телефону доверия&raquo;;</li>
+<li>обработка и направление заявлений и сообщений главному врачуполиклиники для рассмотрения и принятия мер;</li>
+<li>анализ сообщений граждан (организаций), поступивших по &laquo;Телефону доверия&raquo;, их учет при разработке и реализации антикоррупционных мероприятий.</li>
+</ul>
+
+<p><strong>Учреждение здравоохранения "7-я городская стоматологическая поликлиника"</strong></p>
+<hr />
+<p>"Горячая линия"&nbsp;<strong>+375 17 355-76-19</strong>&nbsp;(понедельник-пятница: с 9:00 до 18:00)</p>
+<div>Телефон доверия по вопросам коррупционных проявлений&nbsp;</div>
+<div><strong>+375 17 385-98-20&nbsp;</strong>(работает круглосуточно, в режиме автоответчика)</div>
+
+<p><strong>Комитет по здравоохранению Мингорисполкома</strong></p>
+<hr />
+<p>&nbsp;"Горячая линия"&nbsp;</p>
+<div><strong>+375 17 319-00-10&nbsp;</strong>(понедельник - четверг с 9:00 до 17:30, пятница - с 9:00 до 16:30, обеденный перерыв с 13:00 до 14:00)</div>
+<div>Сайт:&nbsp;<a href="http://komzdrav-minsk.gov.by/" target="_blank" rel="noopener">http://komzdrav-minsk.gov.by</a></div>
+
+<p><strong>Министерство здравоохранения Республики Беларусь</strong></p>
+<hr />
+<p>&nbsp;"Горячая линия"</p>
+<p><strong>+375 17 373-70-80&nbsp;</strong>(ежедневно с 9:00 до 18:00, кроме выходных дней, обеденный перерыв с 13:00 до 14:00)<br />Сайт:&nbsp;<a href="http://minzdrav.gov.by/" target="_blank" rel="noopener">http://minzdrav.gov.by</a></p>
+
+<p><strong>Телефоны "Доверия" (экстренной психологической&nbsp; помощи)</strong></p>
+<hr />
+<p>Для взрослых:&nbsp;<strong>+375 17 352-44-44,&nbsp;</strong><strong>+375 17 304-43-70</strong></p>
+<p>Для детей и подростков:&nbsp;<strong>+375 17 263-03-03</strong></p>
+<p>Республиканская "Детская телефонная линия":&nbsp;<strong>8-801-100-1611</strong></p>
+<hr />
+
+</div>
+</div>																														</div>
+        </article>
+      </div>
+
+      <div class="tab-panel" id="electronic" role="tabpanel">
+        <article class="content-card prose">
+          <h2>Порядок направления и рассмотрения электронных обращений</h2>
+          <div>
+  <div><p><strong>Уважаемый посетитель!</strong></p>
+<div>
+<p>На основании статьи 25 Закона Республики Беларусь от 18 июля 2011 г. N 300-З &laquo;Об обращениях граждан и юридических лиц&raquo; (ред. от 28.06.2022 с изменениями и дополнениями, вступившими в силу со 02.01.2023)&nbsp;<strong>электронные обращения</strong>&nbsp;<strong>подаются</strong>&nbsp;посредством государственной&nbsp;<strong>единой республиканской информационной системы учета и обработки обращений граждан и юридических лиц&nbsp;</strong>(<a href="https://обращения.бел" target="_blank" rel="noopener">обращения.бел</a>).</p>
+<p>Доступ к данной системе осуществляется <strong>бесплатно</strong>.</p>
+<p><strong>Рассмотрение электронных обращений</strong></p>
+<p>Электронные обращения, поступившие в учреждением здравоохранения "7-я городская стоматологическая поликлиника" (далее - поликлиника) рассматриваются в порядке, установленном для рассмотрения письменных обращений, с учетом особенностей, предусмотренных статьей 25 Закона.</p>
+<p>В поликлинике рассматриваются обращения, в которых изложены вопросы, решение которых относится к ее компетенции.</p>
+<p>При поступлении в поликлинику обращений, содержащих вопросы, решение которых не относится к ее компетенции, в течение пяти рабочих дней такие обращения направляются в государственные органы, организации для рассмотрения в соответствии с их компетенцией с уведомлением заявителей в тот же срок либо в тот же срок в порядке, установленном Законом, поликлиника оставляет такие обращения без рассмотрения по существу и уведомляет об этом заявителей с разъяснением, в какую организацию и в каком порядке следует им обратиться для решения вопросов, изложенных в обращениях.</p>
+<p>Электронные обращения, в которых обжалуются судебные постановления, не позднее пяти рабочих дней возвращаются заявителям с разъяснением им порядка обжалования судебных постановлений.</p>
+<p>Электронные обращения, содержащие информацию о готовящемся, совершаемом или совершенном преступлении либо ином правонарушении, не позднее пяти рабочих дней направляются поликлиникой в соответствующие правоохранительные или другие государственные органы.</p>
+<p><strong>Требования, предъявляемые к электронным обращениям</strong></p>
+<p>В соответствии со ст. 12, 25 Закона электронные обращения должны содержать:</p>
+<p><strong>от граждан и индивидуальных предпринимателей:</strong></p>
+<p>наименование и (или) адрес организации либо должность лица, которым направляется обращение;</p>
+<p>фамилию, собственное имя, отчество (если таковое имеется) либо инициалы гражданина, адрес его места жительства (места пребывания);</p>
+<p>изложение сути обращения;</p>
+<p>адрес электронной почты заявителя;</p>
+<p><strong>от юридических лиц:</strong></p>
+<p>наименование и (или) адрес организации либо должность лица, которым направляется обращение;</p>
+<p>полное наименование юридического лица и его место нахождения;</p>
+<p>изложение сути обращения;</p>
+<p>фамилию, собственное имя, отчество (если таковое имеется) либо инициалы руководителя или лица, уполномоченного в установленном порядке подписывать обращения;</p>
+<p>адрес электронной почты заявителя.</p>
+<p>К электронным обращениям, подаваемым представителями заявителей, должны прилагаться документы в электронном виде, подтверждающих их полномочия.</p>
+<p>Суть электронного обращения не может излагаться посредством ссылок на интернет-ресурсы. Текст обращения должен поддаваться прочтению. Не допускается употребление в обращениях нецензурных либо оскорбительных слов или выражений.</p>
+<p><strong>Право заявителя на отзыв электронного обращения</strong></p>
+<p>В соответствии со ст. 16 Закона заявитель имеет право отозвать свое обращение до рассмотрения его по существу путем подачи соответствующего письменного (электронного) заявления.</p>
+<p>В случае отзыва заявителем своего обращения государственный орган, организация, индивидуальный предприниматель прекращают рассмотрение этого обращения по существу без уведомления об этом заявителя.</p>
+<p><strong>Оставление обращения без рассмотрения по существу</strong></p>
+<p>На основании ст. 15 Закона электронное обращение может быть оставлено без рассмотрения по существу если:</p>
+<p>обращения не соответствуют требованиям, предъявляемым к содержанию электронного обращения;</p>
+<p>обращения подлежат рассмотрению в соответствии с законодательством о конституционном судопроизводстве, гражданским, гражданским процессуальным, хозяйственным процессуальным, уголовно-процессуальным законодательством, законодательством, определяющим порядок административного процесса, законодательством об административных процедурах, обращения являются обращениями работника к нанимателю либо в соответствии с законодательными актами установлен иной порядок подачи и рассмотрения таких обращений;</p>
+<p>обращения содержат вопросы, решение которых не относится к компетенции организации, в которую они поступили;</p>
+<p>пропущен без уважительной причины срок подачи жалобы;</p>
+<p>заявителем подано повторное обращение и в нем не содержатся новые обстоятельства, имеющие значение для рассмотрения обращения по существу;</p>
+<p>с заявителем прекращена переписка по изложенным в обращении вопросам.</p>
+<p>Обращение содержит угрозы жизни, здоровью и имуществу, побуждение к совершению противоправного деяния либо заявитель&nbsp; иным способом злоупотребляет право на обращение.</p>
+<p><strong>Направление ответов заявителям</strong></p>
+<p>Ответы (уведомления) на электронные обращения направляются посредством системы учета и обработки обращений за исключением случая, когда &nbsp;заявитель в своем электронном обращении просит направить письменный ответ.</p>
+</div></div>
+</div>																														</div>
+        </article>
+      </div>
+
+      <div class="tab-panel" id="higher" role="tabpanel">
+        <article class="content-card prose">
+          <h2>Вышестоящая организация</h2>
+          <div>
+  <div><p><span lang="RU">С графиками приема граждан, юридических лиц и индивидуальных предпринимателей, их представителей, представителей юридических лиц в&nbsp;Министерстве здравоохранения Республики Беларусь и комитете по здравоохранению Мингорисполкома можно ознакомиться на официальных сайтах:</span></p>
+<p><span lang="RU"><span lang="RU"><a title="Министерство здравоохранения Республики Беларусь" href="https://minzdrav.gov.by/ru/ministerstvo/priem-grazhdan/organizatsiya-lichnogo-priema-i-rassmotrenie-ustnykh-obrashcheniy-grazhdan-rukovodstvom-minzdrava.php" target="_blank" rel="noopener">Министерство здравоохранения Республики Беларусь</a></span>(ссылка на сайт)</span></p>
+<p><span lang="RU"><span lang="RU"><a title="Комитет по здравоохранению Мингорисполкома&nbsp;&nbsp;" href="https://komzdrav-minsk.gov.by/ru/%D0%BA%D0%BE%D0%BD%D1%82%D0%B0%D0%BA%D1%82/%D0%BB%D0%B8%D1%87%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%B8%D0%B5%D0%BC" target="_blank" rel="noopener">Комитет по здравоохранению Мингорисполкома</a></span>(ссылка на сайт)</span></p></div>
+</div>																														</div>
+        </article>
+      </div>
+
+      <div class="tab-panel" id="admin-proc" role="tabpanel">
+        <article class="content-card prose">
+          <h2>Административные процедуры</h2>
+          <div class="section_preview hot_previews"><div class="row row-eq-height"><div class="col-xs-6 col-sm-6 col-md-4"><a class="item"  title="Здравоохранение (для пациентов)" href="https://7gsp.by/административные-процедуры/здравоохранение-для-пациентов" target="_blank" rel="noopener"><div class="preview"></div><div><h3>Здравоохранение (для пациентов)</div></a></div><div class="col-xs-6 col-sm-6 col-md-4"><a class="item"  title="Жилищные правоотношения (для работников)" href="https://7gsp.by/административные-процедуры/жилищные-правоотношения-для-работников" target="_blank" rel="noopener"><div class="preview"></div><div><h3>Жилищные правоотношения (для работников)</div></a></div><div class="col-xs-6 col-sm-6 col-md-4"><a class="item"  title="Труд и социальная защита (для работников)" href="https://7gsp.by/административные-процедуры/труд-и-социальная-защита-для-работников" target="_blank" rel="noopener"><div class="preview"></div><div><h3>Труд и социальная защита (для работников)</div></a></div></div></div>																		</div>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  </main>
+
+  <!-- Подвал -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-title">УЗ «7-я городская стоматологическая поликлиника»</h2>
+          <p style="margin:0 0 10px"><strong>Основное здание:</strong> 220082, г. Минск, ул. Притыцкого, 46</p>
+          <p style="margin:0 0 10px"><strong>Филиал №1 (платный приём):</strong> г. Минск, ул. Нёманская, 46</p>
+          <p style="margin:0 0 10px">E-mail: <a href="mailto:help@7gsp.by">help@7gsp.by</a></p>
+          <p style="margin:0;font-size:0.86rem;opacity:0.9">Регистрационное свидетельство ИР № 101375962.<br>За информацию о режиме работы и номерах телефонов, размещённую на сторонних сайтах, администрация учреждения ответственности не несёт.</p>
+        </div>
+
+        <div>
+          <h2 class="footer-title">Телефоны регистратур</h2>
+          <ul class="footer-links">
+            <li>Приёмная главного врача: <a href="tel:+375172242284">+375 17 224-22-84</a></li>
+            <li>Терапевтическое отд.: <a href="tel:+375172439286">+375 17 243-92-86</a>, <a href="tel:+375295849956">+375 29 584-99-56</a></li>
+            <li>Ортопедическое отд.: <a href="tel:+375173538351">+375 17 353-83-51</a>, <a href="tel:+375333334464">+375 33 333-44-64</a></li>
+            <li>Детское отд.: <a href="tel:+375173529284">+375 17 352-92-84</a>, <a href="tel:+375295849956">+375 29 584-99-56</a></li>
+            <li><strong>Филиал №1 (Нёманская, 46):</strong> <a href="tel:+375173688206">+375 17 368-82-06</a>, <a href="tel:+375298567914">+375 29 856-79-14</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="footer-title">Все разделы сайта</h2>
+          <ul class="footer-links">
+            <li><a href="talon.html">Как получить талон</a> · <a href="schedule.html">Расписание</a></li>
+            <li><a href="services.html">Услуги</a> · <a href="paid.html">Платные услуги и прейскурант</a></li>
+            <li><a href="filial-1.html">Внебюджетное отделение филиал №1</a></li>
+            <li><a href="district.html">Район обслуживания (поиск улицы)</a></li>
+            <li><a href="about.html">О поликлинике</a> · <a href="patients.html">Пациентам и льготы</a></li>
+            <li><a href="appeals.html">Обращения граждан и админпроцедуры</a></li>
+            <li><a href="news.html">Новости</a> · <a href="sitemap.html">Карта сайта и поиск</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © Учреждение здравоохранения «7-я городская стоматологическая поликлиника» ·
+          <a href="https://7gsp.by/информация/политика-обработки-персональных-данных" target="_blank" rel="noopener">Политика персональных данных</a> ·
+          <a href="https://7gsp.by/информация/политика-в-отношении-обработки-cookie" target="_blank" rel="noopener">Политика cookie</a>
+        </div>
+        <a class="btn-top" href="#top">↑ Наверх страницы</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

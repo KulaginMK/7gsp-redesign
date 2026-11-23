@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="ru" data-font="md" data-theme="default" data-images="on" data-spacing="normal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>О поликлинике — УЗ «7-я городская стоматологическая поликлиника»</title>
+  <meta name="description" content="Администрация, режим работы, история с 1976 года, задачи и функции, а также актуальные вакансии УЗ «7-я городская стоматологическая поликлиника».">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Перейти сразу к основному содержанию</a>
+
+  <!-- Панель «Версия для слабовидящих» -->
+  <div class="a11y-panel" id="a11yPanel" role="region" aria-label="Настройки версии для слабовидящих">
+    <div class="container a11y-inner">
+      <div class="a11y-group">
+        <span class="a11y-label">Размер шрифта:</span>
+        <button type="button" class="a11y-btn" data-a11y-font="md" aria-pressed="true">А (обычный)</button>
+        <button type="button" class="a11y-btn" data-a11y-font="lg" aria-pressed="false">А+ (крупный)</button>
+        <button type="button" class="a11y-btn" data-a11y-font="xl" aria-pressed="false">А++ (очень крупный)</button>
+      </div>
+      <div class="a11y-group">
+        <span class="a11y-label">Цвет фона:</span>
+        <button type="button" class="a11y-btn" data-a11y-theme="default" aria-pressed="true">Обычный</button>
+        <button type="button" class="a11y-btn a11y-btn--bw" data-a11y-theme="bw" aria-pressed="false">Чёрным по белому</button>
+        <button type="button" class="a11y-btn a11y-btn--wb" data-a11y-theme="wb" aria-pressed="false">Белым по чёрному</button>
+        <button type="button" class="a11y-btn a11y-btn--blue" data-a11y-theme="blue" aria-pressed="false">Синим по голубому</button>
+      </div>
+      <div class="a11y-group">
+        <span class="a11y-label">Фото:</span>
+        <button type="button" class="a11y-btn" data-a11y-images="on" aria-pressed="true">Показать</button>
+        <button type="button" class="a11y-btn" data-a11y-images="off" aria-pressed="false">Скрыть</button>
+      </div>
+      <div class="a11y-group">
+        <span class="a11y-label">Интервал:</span>
+        <button type="button" class="a11y-btn" data-a11y-spacing="normal" aria-pressed="true">Обычный</button>
+        <button type="button" class="a11y-btn" data-a11y-spacing="wide" aria-pressed="false">Широкий</button>
+      </div>
+      <button type="button" class="a11y-btn a11y-btn--reset" id="a11yReset">Вернуть обычный вид</button>
+    </div>
+  </div>
+
+  <!-- Верхняя служебная полоса -->
+  <div class="top-bar">
+    <div class="container top-bar__inner">
+      <div class="top-bar__hours">
+        <span aria-hidden="true">🕒</span>
+        <span data-i18n="top_hours">Пн–Пт: регистратура 7:30–21:00, врачи 8:00–21:00 · Сб: 9:00–15:00 · Вс: выходной</span>
+      </div>
+      <div class="top-bar__actions">
+        <button type="button" class="btn-a11y-toggle" id="a11yToggle" aria-expanded="false" aria-controls="a11yPanel">
+          <span aria-hidden="true">👁</span>
+          <span data-i18n="a11y_btn">Версия для слабовидящих</span>
+        </button>
+        <div class="lang-switch" role="group" aria-label="Выбор языка интерфейса">
+          <button type="button" class="lang-btn" data-lang="ru" aria-pressed="true">РУС</button>
+          <button type="button" class="lang-btn" data-lang="be" aria-pressed="false">БЕЛ</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">ENG</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Основная шапка сайта -->
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html">
+        <img class="brand__logo" src="assets/img/logo.png" alt="Эмблема 7-й городской стоматологической поликлиники" width="74" height="74">
+        <span>
+          <span class="brand__eyebrow" data-i18n="eyebrow">Учреждение здравоохранения · г. Минск</span>
+          <span class="brand__title" data-i18n="brand_title">7-я городская стоматологическая поликлиника</span>
+          <span class="brand__addresses">ул. Притыцкого, 46 · Филиал №1: ул. Нёманская, 46</span>
+        </span>
+      </a>
+      <div class="header-cta">
+        <a class="btn btn--primary" href="https://7gsp.medtalon.by" target="_blank" rel="noopener">
+          <span aria-hidden="true">📅</span>
+          <span data-i18n="cta_talon">Заказать талон онлайн</span>
+        </a>
+        <a class="btn btn--outline" href="contacts.html">
+          <span aria-hidden="true">☎</span>
+          <span data-i18n="cta_phones">Телефоны</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Главное меню -->
+  <nav class="site-nav" aria-label="Основное меню">
+    <div class="container site-nav__inner">
+      <button type="button" class="nav-mobile-toggle" id="navMobileToggle" aria-expanded="false" aria-controls="navList">
+        <span>☰ Меню разделов сайта</span>
+        <span aria-hidden="true">▾</span>
+      </button>
+      <ul class="nav-list" id="navList">
+        <li><a class="nav-link" href="index.html" data-i18n="nav_home">Главная</a></li><li><a class="nav-link" href="talon.html" data-i18n="nav_talon">Как получить талон</a></li><li><a class="nav-link" href="schedule.html" data-i18n="nav_schedule">Расписание</a></li><li><a class="nav-link" href="services.html" data-i18n="nav_services">Услуги</a></li><li><a class="nav-link" href="paid.html" data-i18n="nav_paid">Платные услуги</a></li><li><a class="nav-link" href="filial-1.html" data-i18n="nav_filial">Филиал №1</a></li><li><a class="nav-link" href="district.html" data-i18n="nav_district">Район обслуживания</a></li><li><a class="nav-link" href="contacts.html" data-i18n="nav_contacts">Контакты</a></li>
+        <li class="nav-more-wrap">
+          <button type="button" class="nav-more-btn" id="navMoreBtn" aria-expanded="false" aria-controls="navMoreMenu" data-i18n="nav_more">Ещё разделы ▾</button>
+          <ul class="nav-dropdown" id="navMoreMenu">
+            <li><a href="about.html" aria-current="page">О поликлинике (администрация, режим, история, вакансии)</a></li><li><a href="patients.html">Пациентам (закрепление, правила, льготы, помощь инвалидам)</a></li><li><a href="appeals.html">Обращения граждан и административные процедуры</a></li><li><a href="news.html">Новости и полезная информация</a></li><li><a href="sitemap.html">Карта сайта и поиск по разделам</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+  <section class="page-banner">
+    <div class="container">
+      <nav aria-label="Путь по сайту">
+        <ol class="breadcrumbs"><li><a href="index.html">Главная</a></li><li aria-current="page">О поликлинике</li></ol>
+      </nav>
+      <div class="page-banner__row">
+        <div>
+          <h1>О поликлинике</h1>
+          <p>Руководство учреждения, точный режим работы, история с 1976 года, задачи и открытые вакансии.</p>
+        </div>
+        <button type="button" class="btn-print" data-print>🖨 Распечатать страницу</button>
+      </div>
+    </div>
+  </section>
+
+  <main id="main-content">
+    
+  <div class="page-main">
+    <div class="container" data-tabs>
+      <div class="tabs-bar" role="tablist" aria-label="Подразделы о поликлинике">
+        <button type="button" class="tab-btn" role="tab" aria-selected="true" data-tab-target="admin">Администрация</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab-target="hours">Режим работы</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab-target="history">История поликлиники</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab-target="tasks">Задачи и функции</button>
+        <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab-target="vacancies">Наши вакансии</button>
+      </div>
+
+      <div class="tab-panel is-active" id="admin" role="tabpanel">
+        <h2 class="section__title" style="margin-bottom:16px">Руководство и заведующие отделениями</h2>
+        <div class="staff-grid">
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/3463/ico/foto.jpg" alt="Кулагина Наталья Игоревна" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='КН';"></div>
+          <div>
+            <h3 class="staff-card__name">Кулагина Наталья Игоревна</h3>
+            <p class="staff-card__role">Главный врач</p>
+            <p class="staff-card__meta">г. Минск, ул. Притыцкого, 46, кабинет 50 тел. <a class="phone-link" style="font-size:1rem" href="tel:+375173563226">+375 17 356-32-26</a></p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article>
+
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/3443/ico/%D0%BA%D0%B0%D1%81%D0%BA%D0%B5%D0%B2%D0%B8%D1%87.jpg" alt="Каскевич Ядвига Францевна" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='КЯ';"></div>
+          <div>
+            <h3 class="staff-card__name">Каскевич Ядвига Францевна</h3>
+            <p class="staff-card__role">Заместитель главного врача по медицинской части</p>
+            <p class="staff-card__meta">г.Минск, ул. Притыцкого, 46, кабинет 49 тел. <a class="phone-link" style="font-size:1rem" href="tel:+375173518729">+375 17 351-87-29</a></p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article>
+
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/3483/ico/2.jpg" alt="Барадин Михаил Анатольевич" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='БМ';"></div>
+          <div>
+            <h3 class="staff-card__name">Барадин Михаил Анатольевич</h3>
+            <p class="staff-card__role">Врач-стоматолог-ортопед (заведующий) стоматологическим внебюджетным отделением филиала №1</p>
+            <p class="staff-card__meta">г. Минск, ул. Нёманская, 46, кабинет 5 тел. <a class="phone-link" style="font-size:1rem" href="tel:+375173587200">+375 17 358-72-00</a></p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article>
+
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/2583/ico/vr_gukova.jpg" alt="Жукова Анна Юрьевна" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='ЖА';"></div>
+          <div>
+            <h3 class="staff-card__name">Жукова Анна Юрьевна</h3>
+            <p class="staff-card__role">Врач-стоматолог-терапевт (заведующий) детским стоматологическим отделением</p>
+            <p class="staff-card__meta">г.Минск, ул. Притыцкого, 46, кабинет 43 Тел. <a class="phone-link" style="font-size:1rem" href="tel:+375173260605">+375 17 326-06-05</a></p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article>
+
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/79043/ico/foto.jpg" alt="Булкин Антон Михайлович" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='БА';"></div>
+          <div>
+            <h3 class="staff-card__name">Булкин Антон Михайлович</h3>
+            <p class="staff-card__role">Врач-стоматолог-ортопед (заведующий) 1 стоматологическим ортопедическим отделением</p>
+            <p class="staff-card__meta">г.Минск, ул. Притыцкого, 46, кабинет 19 тел. <a class="phone-link" style="font-size:1rem" href="tel:+375172439784">+375 17 243-97-84</a></p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article>
+
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/3493/ico/%D0%B3%D1%80%D0%B8%D0%BD%D0%BA%D0%B5%D0%B2%D0%B8%D1%87.jpg" alt="Гринкевич Галина Михайловна" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='ГГ';"></div>
+          <div>
+            <h3 class="staff-card__name">Гринкевич Галина Михайловна</h3>
+            <p class="staff-card__role">Врач-стоматолог-ортопед (заведующий) 2 стоматологическим ортопедическим отделением</p>
+            <p class="staff-card__meta">г.Минск, ул. Притыцкого, 46, кабинет 19 тел. <a class="phone-link" style="font-size:1rem" href="tel:+375172439784">+375 17 243-97-84</a></p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article>
+
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/3513/ico/Novikova.jpg" alt="Новикова Вера Александровна" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='НВ';"></div>
+          <div>
+            <h3 class="staff-card__name">Новикова Вера Александровна</h3>
+            <p class="staff-card__role">Врач-стоматолог-терапевт (заведующий) 1 стоматологическим терапевтическим отделением</p>
+            <p class="staff-card__meta">г.Минск, ул. Притыцкого, 46, кабинет 19 тел. <a class="phone-link" style="font-size:1rem" href="tel:+375172439784">+375 17 243-97-84</a></p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article>
+
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/76133/ico/Rutkovskaya.jpg" alt="Рутковская Ирина Леонидовна" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='РИ';"></div>
+          <div>
+            <h3 class="staff-card__name">Рутковская Ирина Леонидовна</h3>
+            <p class="staff-card__role">Врач-стоматолог-терапевт (заведующий) 2 стоматологическим терапевтическим отделением</p>
+            <p class="staff-card__meta">г.Минск, ул. Притыцкого, 46, кабинет 19 тел. <a class="phone-link" style="font-size:1rem" href="tel:+375172439784">+375 17 243-97-84</a>с 19.10.2026 по 24.06.2026 - отпуск</p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article>
+
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/76143/ico/Kreidich.jpg" alt="Крейдич Игорь Васильевич" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='КИ';"></div>
+          <div>
+            <h3 class="staff-card__name">Крейдич Игорь Васильевич</h3>
+            <p class="staff-card__role">Заместитель главного врача по хозяйственной работе</p>
+            <p class="staff-card__meta">г.Минск, ул. Притыцкого, 46, кабинет 44 тел. <a class="phone-link" style="font-size:1rem" href="tel:+375173581837">+375 17 358-18-37</a></p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article>
+
+        <article class="staff-card">
+          <div class="staff-card__photo-wrap" aria-hidden="true"><img src="https://7gsp.by/files/01991/obj/650/77273/ico/foto.jpg" alt="Вендиков Вадим Михайлович" loading="lazy" onerror="this.style.display='none';this.parentNode.textContent='ВВ';"></div>
+          <div>
+            <h3 class="staff-card__name">Вендиков Вадим Михайлович</h3>
+            <p class="staff-card__role">Ведущий специалист по организации закупок</p>
+            <p class="staff-card__meta">г.Минск, ул. Притыцкого, 46, кабинет 53 тел. <a class="phone-link" style="font-size:1rem" href="tel:+375173548360">+375 17 354 83 60</a></p>
+            <p style="margin:10px 0 0"><a href="appeals.html#reception">График личного приёма граждан →</a></p>
+          </div>
+        </article></div>
+      </div>
+
+      <div class="tab-panel" id="hours" role="tabpanel">
+        <article class="content-card prose">
+          <h2>Режим работы поликлиники</h2>
+          <div>
+  <div><p><strong>Режим работы учреждения: УЗ &laquo;7-я городская стоматологическая поликлиника&raquo;:&nbsp;</strong></p>
+<p>с понедельника по пятницу: регистратура: с 07.30 до 21.00;&nbsp; врачебный прием: с 8.00 до 21.00;</p>
+<p>суббота: регистратура: с 8.30 до 15.00; врачебный прием: с 9.00 до 15.00;</p>
+<p>воскресенье и праздничные дни: выходной.</p>
+<p>Телефонные номера регистратуры:&nbsp;</p>
+<p>1, 2 стоматологическое терапевтическое отделение:<br /><strong>(017)&nbsp; 243 92 86</strong>; <strong>(029)&nbsp; 584 99 56</strong>;&nbsp;</p>
+<p>1, 2 стоматологическое&nbsp; ортопедическое отделение:<br /><strong>(017)&nbsp; 353 83 51</strong>; <strong>(033)&nbsp; 333 44 64</strong>;&nbsp;&nbsp;</p>
+<p>детское стоматологическое&nbsp; отделение:&nbsp;<br /><strong>(017)&nbsp; 352 92 84</strong>; <strong>(029)&nbsp; 584 99 56</strong>.</p>
+
+<p><strong>Режим работы стоматологического</strong>&nbsp;<strong>внебюджетного отделение филиала № 1 УЗ &laquo;7-я городская стоматологическая поликлиника&raquo;:&nbsp;</strong></p>
+<p>с понедельника по пятницу: регистратура: с 07.30 до 21.00;&nbsp; врачебный прием: с 8.00 до 21.00;</p>
+<p>1-я, 3-я суббота: регистратура: с 8.30 до 15.00; врачебный прием: с 9.00 до 15.00;</p>
+<p>воскресенье и праздничные дни: выходной.</p>
+<p>Телефонные номера регистратуры:&nbsp;</p>
+<p>стоматологическое внебюджетное отделение:<br /><strong>(017)&nbsp; 368 82 06</strong>; <strong>(029)&nbsp; 856 79 14</strong>;</p></div>
+</div>																														</div>
+        </article>
+        
+      <div class="emergency-box" role="region" aria-label="Неотложная стоматологическая помощь в нерабочее время">
+        <h3 class="emergency-box__title">🚑 Неотложная стоматологическая помощь в нерабочее время, ночью, в выходные и праздники</h3>
+        <div class="emergency-grid">
+          <div class="emergency-card">
+            <strong>Взрослым пациентам</strong>
+            УЗ «3-я городская стоматологическая поликлиника»<br>
+            г. Минск, <strong>ул. Киселёва, д. 5</strong>
+          </div>
+          <div class="emergency-card">
+            <strong>Детям и подросткам</strong>
+            УЗ «4-я городская детская клиническая больница»<br>
+            г. Минск, <strong>ул. Шишкина, д. 24</strong>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="tab-panel" id="history" role="tabpanel">
+        <article class="content-card prose">
+          <h2>История поликлиники (с 1976 года)</h2>
+          <div>
+  <div><p>Учреждение здравоохранения &laquo;7-я городская стоматологическая поликлиника&raquo; открылось в марте 1976 года в приспособленных и пристроенных к жилому дому помещениях, ранее планировавшихся под овощной магазин и детскую молочную кухню.</p>
+<p><img src="https://7gsp.by/files/01991/obj/110/68383/img/111.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/222.png" loading="lazy" alt="" /></p>
+<p>В составе поликлиники было 3 отделения &ndash; лечебное, детское и ортопедическое с зуботехнической лабораторией. Из вспомогательных служб работали рентгенологический и физиотерапевтический кабинеты, регистратуры лечебного, детского и ортопедического отделений.</p>
+<p><img src="https://7gsp.by/files/01991/obj/110/68383/img/333.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/444.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/666.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/777.png" loading="lazy" alt="" /></p>
+<p>Плановая мощность поликлиники составляла 295 посещений в смену.</p>
+<p>Поликлиника обслуживала население 12 городской поликлиники в количестве 65 тысяч, 20 детской поликлиники &ndash; 13 тысяч, на оказание ортопедической помощи было прикреплено 120 тысяч населения Фрунзенского района.</p>
+<p>Оснащение поликлиники было представлено стоматологическим оборудованием Казанского завода.</p>
+<p><img src="https://7gsp.by/files/01991/obj/110/68383/img/17.jpg" loading="lazy" alt="" /></p>
+<p>Рабочее место врача комплектовалось стоматологической установкой УС 30, стоматологическим креслом и стулом вертушкой для врача. В каждом кабинете было установлено по 4 таких комплекта, что противоречило всем санитарным нормам. Дезинфекция и стерилизация мединструментария проводилась в специально выделенных между 2-мя смежными кабинетами помещениях.</p>
+<p>В штате лечебного и детского отделений насчитывалось 36 врачебных должностей, из них только 25% составляли врачи-стоматологи с высшим образованием, остальные должности были укомплектованы зубными врачами со средним образованием, в ортопедическом отделении из 12 врачебных должностей врачи-стоматологи-ортопеды составляли 75%.</p>
+<p>Первым главным врачом поликлиники был назначен врач-стоматолог-ортопед Кравченко Владимир Акимович, которому было присвоено звание &laquo;Заслуженный врач Республики Беларусь&raquo;.</p>
+<p>За период немногим более 30 лет в поликлинике было проведено 2 капитальных ремонта, в 1993 году два разрозненных помещения соединены пристройкой, что позволило улучшить условия работы персонала, создать врачебные кабинеты и новые рабочие места.</p>
+<p>В ходе последнего капитального ремонта в период с 1998 года по 2005 год помещения поликлиники были реконструированы, выделена централизованная стерилизационная, произведено переоснащение материальной базы с полной заменой стоматологических установок, оборудованием централизованной компрессорной и заменой оборудования в зуботехнической лаборатории.</p>
+<p>В настоящее время кабинеты поликлиники имеют современный дизайн, оснащены высокотехнологичным оборудованием, позволяющим оказывать стоматологическую помощь с использованием в работе новейших технологий и высококачественных материалов для профилактики, лечения и протезирования.</p>
+<p><img src="https://7gsp.by/files/01991/obj/110/68383/img/41.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/42.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/43.png" loading="lazy" alt="" /></p>
+<p>&nbsp;За последние годы в поликлинике внедрены новые методики и технологии по оказанию стоматологической помощи населению, такие как дентальная имплантация, изготовление съемных протезов методом литьевого прессования, протезирование безметалловой керамикой, цирконием.</p>
+<p>Много внимания уделяется профилактике стоматологических болезней, широко проводится пропаганда гигиенических навыков в школах, детских дошкольных коллективах. Приобретено оборудование и внедрена технология лечения начальных форм кариеса с помощью озона и препаратом &laquo;ICON&raquo; без оперативного вмешательства и пломбирования зуба.</p>
+<p><img src="https://7gsp.by/files/01991/obj/110/68383/img/51.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/52.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/53.png" loading="lazy" alt="" /></p>
+<p>Врачебный персонал поликлиники высококвалифицирован, % аттестованности врачей составляет 89%, 6 членов коллектива награждены знаком &laquo;Отличник здравоохранения СССР&raquo; и &laquo;Отличник здравоохранения Республики Беларусь&raquo;, 3 Почетной грамотой Министерства здравоохранения Республики Беларусь, 5 Почетной грамотой Минского городского исполнительного комитета, 15 Почетной грамотой комитета по здравоохранению Мингорисполкома.</p>
+<p><img src="https://7gsp.by/files/01991/obj/110/68383/img/61.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/62.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/63.png" loading="lazy" alt="" /></p>
+<p>В 2001 году поликлиника награждена Почетной грамотой Минского городского Совета депутатов, неоднократно награждалась Почетной грамотой комитета по здравоохранению Мингорисполкома как лучшее учреждение среди стоматологических поликлиник города по результатам работы за год.</p>
+<p><img src="https://7gsp.by/files/01991/obj/110/68383/img/71.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/72.png" loading="lazy" alt="" />&nbsp;<img src="https://7gsp.by/files/01991/obj/110/68383/img/73.png" loading="lazy" alt="" /></p></div>
+</div>																														</div>
+        </article>
+      </div>
+
+      <div class="tab-panel" id="tasks" role="tabpanel">
+        <article class="content-card prose">
+          <h2>Задачи и функции учреждения</h2>
+          <div>
+  <div><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Задачи:</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Реализация мероприятий по предупреждению стоматологических болезней у обслуживаемого населения.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Анализ заболеваемости населения района обслуживания с временной утратой трудоспособности, разработка мероприятий по ее снижению.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Пропаганда научных медицинских и гигиенических знаний.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Реализация комплекса мероприятий по обеспечению санитарно-эпидемиологического благополучия населения.</p>
+
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <strong>Функции:</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Оказание экстренной неотложной медицинской помощи при острых и внезапных заболеваниях, травмах, несчастных&nbsp; случаях.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Своевременное квалифицированное оказание всех видов стоматологической помощи (терапевтической, хирургической, ортопедической) взрослому и детскому населению района обслуживания.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Своевременная госпитализация лиц, нуждающихся в стационарном лечении с предварительным максимальным обследованием.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Раннее выявление заболеваний челюстно-лицевой области, своевременное &nbsp;взятие пациента на диспансерный учет.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Мероприятия по профилактике стоматологических заболеваний среди населения и в организованных коллективах.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Проведение экспертизы временной нетрудоспособности, выдача и продление листков временной нетрудоспособности и справок при наличии признаков инвалидности и стойкой утраты трудоспособности, направление на медико-реабилитационную экспертную комиссию.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Проведение мероприятий по повышению квалификации врачей и среднего медперсонала.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Приобретение и использование новейшего диагностического и лечебного оборудования, медикаментов.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Внедрение в работу новых технологий, современных пломбировочных материалов.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Учет деятельности персонала и подразделений, выполнение модели конечных результатов, анализ статистических данных, характеризующих деятельность поликлиники, составление отчетов по утвержденным формам.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Социальное развитие коллектива, создание благоприятных условий для высокопроизводительного труда.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Проведение мероприятий по аттестации рабочих мест, обеспечению техники безопасности, противопожарной защиты, охране труда.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Привлечение дополнительных источников финансирования, оказание платных услуг, дополнительных видов медицинской помощи частным лицам, предприятиям, организациям, страховым компаниям на платной основе.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Соблюдение требований санитарных&nbsp;норм,&nbsp;правил и гигиенических нормативов.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Проведение комплекса мероприятий по повышению качества и культуры обслуживания пациентов, соблюдению персоналом принципов медицинской этики и деонтологии. </p></div>
+</div>																														</div>
+        </article>
+      </div>
+
+      <div class="tab-panel" id="vacancies" role="tabpanel">
+        <article class="content-card prose">
+          <h2>Актуальные вакансии</h2>
+          <div>
+  <div><div class="table-wrap"><table class="cool-table tbl">
+<tbody>
+<tr>
+<th>
+<div>Наименование должности</div>
+</th>
+<th>
+<div>Размер заработной платы</div>
+</th>
+<th>
+<div>Образование</div>
+</th>
+<th>
+<div>Характер работы</div>
+</th>
+<th>
+<div>Режим труда</div>
+</th>
+<th>
+<div>Контактное лицо</div>
+</th>
+</tr>
+<tr>
+<td>Врач-стоматолог ортопед</td>
+<td>от 2700</td>
+<td>Высшее мед.</td>
+<td>Постоянный</td>
+<td>2 смены</td>
+<td>
+<p>Инна Геннадьевна</p>
+<p>+375 17 3059360</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Рабочий по комплексному обслуживанию зданий</p>
+<p>(0.75 ставки)</p>
+</td>
+<td>от 860 до 1100</td>
+<td>Проф-тех.</td>
+<td>Постоянный</td>
+<td>1 смена</td>
+<td>
+<p>Игорь Васильевич</p>
+<p>+375 29 6632909</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>Уборщик территории</p>
+<p>(0,5 ставки)</p>
+</td>
+<td>от 600&nbsp;</td>
+<td>-</td>
+<td>Постоянный</td>
+<td>1 смена</td>
+<td>
+<p>Игорь Васильевич</p>
+<p>+375 29 6632909</p>
+</td>
+</tr>
+<tr>
+<td>Санитарка</td>
+<td>от 1000 до 1200</td>
+<td>-</td>
+<td>Постоянный</td>
+<td>2 смены</td>
+<td>
+<p>Надежда Михайловна</p>
+<p>+375 29 1498231</p>
+</td>
+</tr>
+</tbody>
+</table></div>
+
+<p><strong>Контактный телефон для справок +375 (17) 305-93-60</strong></p></div>
+</div>																														</div>
+        </article>
+      </div>
+    </div>
+  </div>
+
+  </main>
+
+  <!-- Подвал -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2 class="footer-title">УЗ «7-я городская стоматологическая поликлиника»</h2>
+          <p style="margin:0 0 10px"><strong>Основное здание:</strong> 220082, г. Минск, ул. Притыцкого, 46</p>
+          <p style="margin:0 0 10px"><strong>Филиал №1 (платный приём):</strong> г. Минск, ул. Нёманская, 46</p>
+          <p style="margin:0 0 10px">E-mail: <a href="mailto:help@7gsp.by">help@7gsp.by</a></p>
+          <p style="margin:0;font-size:0.86rem;opacity:0.9">Регистрационное свидетельство ИР № 101375962.<br>За информацию о режиме работы и номерах телефонов, размещённую на сторонних сайтах, администрация учреждения ответственности не несёт.</p>
+        </div>
+
+        <div>
+          <h2 class="footer-title">Телефоны регистратур</h2>
+          <ul class="footer-links">
+            <li>Приёмная главного врача: <a href="tel:+375172242284">+375 17 224-22-84</a></li>
+            <li>Терапевтическое отд.: <a href="tel:+375172439286">+375 17 243-92-86</a>, <a href="tel:+375295849956">+375 29 584-99-56</a></li>
+            <li>Ортопедическое отд.: <a href="tel:+375173538351">+375 17 353-83-51</a>, <a href="tel:+375333334464">+375 33 333-44-64</a></li>
+            <li>Детское отд.: <a href="tel:+375173529284">+375 17 352-92-84</a>, <a href="tel:+375295849956">+375 29 584-99-56</a></li>
+            <li><strong>Филиал №1 (Нёманская, 46):</strong> <a href="tel:+375173688206">+375 17 368-82-06</a>, <a href="tel:+375298567914">+375 29 856-79-14</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 class="footer-title">Все разделы сайта</h2>
+          <ul class="footer-links">
+            <li><a href="talon.html">Как получить талон</a> · <a href="schedule.html">Расписание</a></li>
+            <li><a href="services.html">Услуги</a> · <a href="paid.html">Платные услуги и прейскурант</a></li>
+            <li><a href="filial-1.html">Внебюджетное отделение филиал №1</a></li>
+            <li><a href="district.html">Район обслуживания (поиск улицы)</a></li>
+            <li><a href="about.html">О поликлинике</a> · <a href="patients.html">Пациентам и льготы</a></li>
+            <li><a href="appeals.html">Обращения граждан и админпроцедуры</a></li>
+            <li><a href="news.html">Новости</a> · <a href="sitemap.html">Карта сайта и поиск</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © Учреждение здравоохранения «7-я городская стоматологическая поликлиника» ·
+          <a href="https://7gsp.by/информация/политика-обработки-персональных-данных" target="_blank" rel="noopener">Политика персональных данных</a> ·
+          <a href="https://7gsp.by/информация/политика-в-отношении-обработки-cookie" target="_blank" rel="noopener">Политика cookie</a>
+        </div>
+        <a class="btn-top" href="#top">↑ Наверх страницы</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
